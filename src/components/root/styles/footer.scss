@@ -1,0 +1,17 @@
+.footerInfo {
+    @media (min-width: 768px) {
+      background-image: url('./../../../../public/hero2.jpg');
+      background-position: left;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    @media (max-width: 768px) {
+      background-image: url('./../../../../public/hero2.jpg');
+      background-position: bottom;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+  }
+  

@@ -9,13 +9,8 @@
 		transform: scale(1.5) translate(10px, 15px);
 	}
 }
-// .background-video {
-// 	width: 100vw;
-// 	height: 100vh;
-// 	object-fit: cover;
-// 	position: fixed;
-// 	left: 0;
-// 	right: 0;
-// 	top: 0;
-// 	bottom: 0;
-//   }
+.background-video {
+	width: 100vw;
+	height: 100vh;
+	object-fit:fill;
+  }

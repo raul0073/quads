@@ -22,17 +22,18 @@ function Hero() {
 					</Button>
 				</div>
 			</div>
-			{isMobile ? (
-				<div className="hero2 images bg-gray-50 h-[50vh] w-full"></div>
-			) : (
-				<video loop autoPlay className="background-video object-cover w-full max-h-screen">
+			<video loop autoPlay className="background-video object-cover w-full max-h-screen">
 					<source
 						src="https://videos.pexels.com/video-files/5319273/5319273-hd_1080_1920_30fps.mp4"
 						type="video/mp4"
 					/>
 					Your browser does not support the video tag.
 				</video>
-			)}
+			{/* {isMobile ? (
+				<div className="hero2 images bg-gray-50 h-[50vh] w-full"></div>
+			) : (
+				
+			)} */}
 		</div>
 	);
 }

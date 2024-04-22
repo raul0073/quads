@@ -90,13 +90,6 @@ html {
 }
 
 
-.footerInfo {
-  background-image: url('./../../public/hero2.jpg');
-  background-position: left;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
 
 .menuIcon {
   cursor: pointer;
