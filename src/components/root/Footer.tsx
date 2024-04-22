@@ -4,7 +4,7 @@ function Footer() {
   return (
     <section className="w-full bg-transparent p-4">
       <div className="flex justify-end">
-      <div className='w-fit text-3xl'>
+      <div className='w-fit text-5xl'>
         <PiWhatsappLogo color='green' className='cursor-pointer hover:animate-pulse duration-75' />
       </div>
       </div>

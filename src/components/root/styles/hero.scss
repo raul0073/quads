@@ -1,48 +1,21 @@
-// .hero1,
-// .hero2 {
-// 	-webkit-animation: kenburns-bottom-right 3s ease-out both;
-// 	animation: kenburns-bottom-right 3s ease-out both;
-// 	@-webkit-keyframes kenburns-bottom-right {
-// 		0% {
-// 			-webkit-transform: scale(1) translate(0, 0);
-// 			transform: scale(1) translate(0, 0);
-// 			-webkit-transform-origin: 84% 84%;
-// 			transform-origin: 84% 84%;
-// 		}
-// 		100% {
-// 			-webkit-transform: scale(1.25) translate(20px, 15px);
-// 			transform: scale(1.25) translate(20px, 15px);
-// 			-webkit-transform-origin: right bottom;
-// 			transform-origin: right bottom;
-// 		}
-// 	}
-// 	@keyframes kenburns-bottom-right {
-// 		0% {
-// 			-webkit-transform: scale(1) translate(0, 0);
-// 			transform: scale(1) translate(0, 0);
-// 			-webkit-transform-origin: 84% 84%;
-// 			transform-origin: 84% 84%;
-// 		}
-// 		100% {
-// 			-webkit-transform: scale(1.25) translate(20px, 15px);
-// 			transform: scale(1.25) translate(20px, 15px);
-// 			-webkit-transform-origin: right bottom;
-// 			transform-origin: right bottom;
-// 		}
-// 	}
-// }
-
 .hero2 {
-	background-image: url("./../../../../public/hero.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	mix-blend-mode: lighten;
-	background-position: center bottom;
-	-webkit-transform: scale(1.5) translate(20px, 15px);
-	transform: scale(1.5) translate(10px, 15px);
+	@media (max-width: 500px) {
+		background-image: url("./../../../../public/hero.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		mix-blend-mode: lighten;
+		background-position: center bottom;
+		-webkit-transform: scale(1.5) translate(20px, 15px);
+		transform: scale(1.5) translate(10px, 15px);
+	}
 }
-.hero1 {
-	background-image: url("./../../../../public/hero2.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-}
+// .background-video {
+// 	width: 100vw;
+// 	height: 100vh;
+// 	object-fit: cover;
+// 	position: fixed;
+// 	left: 0;
+// 	right: 0;
+// 	top: 0;
+// 	bottom: 0;
+//   }

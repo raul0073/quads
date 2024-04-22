@@ -5,8 +5,8 @@ import { BsInstagram, BsWhatsapp } from 'react-icons/bs'
 
 function FooterInfo() {
   return (
-    <section className="footerInfo w-full bg-black h-[55vh] items-center flex">
-        <div className="content py-12 p-8 text-white">
+    <section className="footerInfo w-full bg-black h-[70vh] items-center flex">
+        <div className="content  p-8 text-white">
         <p>מחירים זולים שלמו עכשיו</p>
         <p>מחירים זולים שלמו עכשיו</p>
         <p>מחירים זולים שלמו עכשיו</p>
@@ -15,7 +15,7 @@ function FooterInfo() {
         <p>מחירים זולים שלמו עכשיו</p>
         <p>מחירים זולים שלמו עכשיו</p>
         <p>מחירים זולים שלמו עכשיו</p>
-        <div className="social flex justify-evenly items-center my-[10vh]">
+        <div className="social flex justify-evenly items-center">
             <GrGoogle color='orange'/>
             <BsWhatsapp color='orange' />
             <BsInstagram color='orange' />
