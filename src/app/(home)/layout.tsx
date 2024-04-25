@@ -12,6 +12,7 @@ function Layout({ children }: { children: ReactNode }) {
 			<footer className="fixed bottom-0 left-0 w-full z-10">
 				<Footer />
 			</footer>
+			
 		</section>
 	);
 }

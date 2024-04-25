@@ -89,7 +89,9 @@ html {
   max-width: 100dvw;
 }
 
-
+.header{
+  letter-spacing: .2rem;
+}
 
 .menuIcon {
   cursor: pointer;
